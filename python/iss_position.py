@@ -22,6 +22,14 @@ response=urllib.request.urlopen(url)
 str_response=response.read().decode("utf-8")
 result=json.loads(str_response)
 
+location=result["iss_position"]
+lon=location["longitude"]
+lat=location["latitude"]
 print("\nCurrent position of ISS: ")
-print("longitude:",result["iss_position"]["longitude"])
-print("latitude:",result["iss_position"]["latitude"])
+print("longitude:",lon)
+print("latitude:",lat)
+
+screen=turtle.Screen()
+imgPath=r"map.jpg"
+screen.bgpic(file="map.jpg")
+screen.bgcolor('red')
