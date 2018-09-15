@@ -1,0 +1,19 @@
+MRO, linerazycja klasy
+
+ipython interpreter
+
+dekorator klasy(exceptions, access,types), biblioteka abc
+
+jupyter
+
+mixins, ducktyping
+
+@property funkcja wbudowana pythona, moznemy sprawdzic czy klasa jest wywolaana z poprawnymi arg
+
+abc import ABCMeta, abstractmethod
+
+instancja, metadane, inspect, obsluga wyjatkow
+
+samefory, loki, condyszony, dedlock
+
+threading library, singleton, dodawanie atomiczne, mutex
